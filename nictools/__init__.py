@@ -17,5 +17,9 @@ Utility and library functions used by these tasks are also included in this
 module.
 """
 from __future__ import absolute_import
-from .version import * 
-
+from pkg_resources import get_distribution, DistributionNotFound
+try:
+    __version__ = get_distribution(__name__).version
+except DistributionNotFound:
+    # package is not installed
+    __version__ = 'UNKNOWN'
