@@ -18,6 +18,7 @@ setup(
     extras_require={
         'docs': [
             'sphinx',
+            'numpydoc',
         ]
     },
     packages=find_packages(),
