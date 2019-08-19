@@ -13,6 +13,7 @@ setup(
         'astropy>=1.0',
         'numpy>=1.9',
         'scipy>=0.16',
+        'stsci.imagestats',
         'stsci.tools',
     ],
     extras_require={
