@@ -28,7 +28,6 @@ setup(
         PACKAGENAME: ['SP_LICENSE'],
     },
     author='Vicki Laidler, David Grumm',
-    author_email='help@stsci.edu',
     description='Python Tools for NICMOS Data',
     url='https://github.com/spacetelescope/nictools',
     classifiers = [
